@@ -5,6 +5,11 @@ import Div from '../Div';
 import PageHeading from '../PageHeading';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
+import Hero4 from '../Hero/Hero4';
+import './CylinderText.css'; // Import the CSS file for styling
+import VideoModal from '../VideoModal';
+
+
 
 export default function CaseStudyDetailsPage() {
   pageTitle('Workshop Details Page');
@@ -13,147 +18,140 @@ export default function CaseStudyDetailsPage() {
   }, []);
   return (
     <>
-   
-      <Spacing lg="145" md="80" />
+
+    {/* Start About Section */}
+    <Spacing lg="150" md="80" />
       <Div className="container">
-        <SectionHeading
-          title="workshop heading and an eye catching line here"
-          subtitle="Marketing"
-          variant="cs-style1 text-center"
-        />
-        <Spacing lg="90" md="45" />
-        <img
-          src="/images/case_study_img_1.jpeg"
-          alt="Thumb"
-          className="w-100 cs-radius_15"
-        />
-        <Spacing lg="140" md="80" />
-        <h2 className="cs-font_38 text-center">Workshop details</h2>
-        <Spacing lg="60" md="45" />
-        <p className="cs-m0">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium voltire doloremque laudantium, totam rem aperiam, eaque
-          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Ipsum quia dolor sit amet,
-          consectetur, adipisci velit, sed quia non numquam eius modi tempora
-          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-          enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt. Ipsum quia dolor sit amet, consectetur
-        </p>
-        <Spacing lg="65" md="45" />
         <Div className="row">
-          <Div className="col-sm-6">
+          <Div className="col-xl-5 col-lg-7">
+            <SectionHeading
+              title="Your trusted partner for business"
+              subtitle="About Our Agency"
+            >
+              <Spacing lg="30" md="20" />
+              <p className="cs-m0">
+                This is the main factor that sets us apart from our competition
+                and allows us to deliver a specialist business consultancy
+                service. Our team applies its wide-ranging experience to
+                determining. Through our years of experience, we’ve also learned
+                that while each channel.
+              </p>
+              <Spacing lg="30" md="30" />
+              <Div className="cs-separator cs-accent_bg"></Div>
+              <Spacing lg="25" md="40" />
+            </SectionHeading>
+          </Div>
+          <Div className="col-lg-5 offset-xl-2">
             <img
-              src="/images/case_study_img_2.jpeg"
-              alt="Thumb"
-              className="w-100 cs-radius_5"
+              src="https://w0.peakpx.com/wallpaper/970/401/HD-wallpaper-man-s-half-face.jpg"
+              alt="About"
+              className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-sm-6">
-            <img
-              src="/images/case_study_img_3.jpeg"
-              alt="Thumb"
-              className="w-100 cs-radius_5"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
+     
         </Div>
-        <Spacing lg="125" md="55" />
       </Div>
-      <Div className="cs-gradient_bg_1 cs-shape_wrap_6">
-        <Div className="cs-shape_2"></Div>
-        <Div className="cs-shape_2"></Div>
+      {/* End About Section */}
+
+ {/* Start Video Block Section */}
+ <Spacing lg="140" md="70" />
+      <Div className="container">
+      <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+    Master The Art Of <br /> 
+    <span style={{ color: 'orange', fontWeight: 'bold' }}>Smart Money</span> 
+    <br /> Trading Using Our Squeeze Strategy
+</h2>
+
+      </Div>
+      {/* End Video Block Section */}
+
+      
+   
+      <Div className="container">
+      
+      <Spacing lg="25" md="45" />
+
+      
+        <p className="cs-m0 text-center">
+        Unlock The Secrets Of Professional Institutional Traders
+        </p>
+        <Spacing lg="55" md="45" />
+
+
+        <div className="cylinder">
+      <div className="cylinder-inner">
+        <span className="orange-text">1st May, 2024, 9:00 PM</span>
+      </div>
+    </div>
+    <Spacing lg="55" md="45" />
+
+     {/* Start Video Block Section */}
+     <Div className="cs-video_block_1_wrap">
         <Div className="container">
-          <Spacing lg="145" md="80" />
-          <h2 className="cs-font_38 text-center">Workshop</h2>
-          <Spacing lg="90" md="45" />
-          <Div className="row align-items-center cs-column_reverse_lg">
-            <Div className="col-lg-5">
-              <h3 className="cs-font_30 cs-m0">strategies overview and what we are going to cover in thsi workshops</h3>
-              <Spacing lg="45" md="30" />
-              <p className="cs-m0">
-                Our goal perspiciatis unde omnis iste natus error sit voluptatem
-                bolaru accusantium voltire doloremque laudantium, totam rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem. <br />
-                <br />
-                Most cases aspernatur aut odit aut fugit, sed quia consequuntur
-                magni dolores eos qui ratione voluptatem sequi nesciunt. Ipsum
-                quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                numquam eius modi tempora incidunt ut labore et dolore.
-              </p>
-            </Div>
-            <Div className="col-lg-6 offset-lg-1 text-center">
-              <Div className="cs-portfolio_img_in cs-shine_hover_1 rounded-circle">
-                <img
-                  src="/images/case_study_img_4.png"
-                  alt="Case study"
-                  className="w-100"
-                />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-          </Div>
-          <Spacing lg="100" md="80" />
-          <Div className="row align-items-center">
-            <Div className="col-lg-6 text-center">
-              <Div className="cs-portfolio_img_in cs-shine_hover_1 rounded-circle">
-                <img
-                  src="/images/case_study_img_5.png"
-                  alt="Case study"
-                  className="w-100"
-                />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-5 offset-lg-1">
-              <h3 className="cs-font_30 cs-m0">Workshop</h3>
-              <Spacing lg="45" md="30" />
-              <p className="cs-m0">
-                Our goal perspiciatis unde omnis iste natus error sit voluptatem
-                bolaru accusantium voltire doloremque laudantium, totam rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem. <br />
-                <br />
-                Most cases aspernatur aut odit aut fugit, sed quia consequuntur
-                magni dolores eos qui ratione voluptatem sequi nesciunt. Ipsum
-                quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                numquam eius modi tempora incidunt ut labore et dolore.
-              </p>
-            </Div>
-          </Div>
-          <Spacing lg="150" md="80" />
+          <VideoModal
+            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+            bgUrl="/images/video_bg_2.jpeg"
+          />
         </Div>
       </Div>
-      <Spacing lg="140" md="80" />
-      <Div className="container text-center">
-        <Div className="row col-lg-10 offset-lg-1">
-          <h2 className="cs-font_38 cs-m0">Workshop</h2>
-          <Spacing lg="60" md="45" />
-          <p className="cs-m0">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium voltire doloremque laudantium, totam rem aperiam, eaque
-            ipsa quae ab illo inventore veritatis et quasi architecto beatae
-            vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-            sit asperna aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Ipsum quia dolor sit
-            amet, consectetur, adipisci velit, sed quia non numquam eius modi
-            tempora incidunt ut labore et dolore magnam aliquam quaerat
-            voluptatem. Ut enim ad nima veniam, quis nostrum exercitationem
-            ullam corporis suscipit.Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Ipsum quia dolor sit
-            amet, consectetur
-          </p>
-        </Div>
+      {/* End Video Block Section */}
       </Div>
+      <Spacing lg="55" md="45" />
+      <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+    After Attending This Webinar <br /> 
+    <span style={{ color: 'orange', fontWeight: 'bold' }}>You Will Be Able To</span> 
+</h2>
+<Spacing lg="55" md="45" />
+
+
+
+      <div className="box-container">
+    <div className="box">
+    <img src="path/to/your/bulb.gif" alt="Bulb GIF" />
+    <p>This is the content of Box 1.</p>
+</div>
+
+
+
+      <div className="box">
+        <h3>Box 2</h3>
+        <p>This is the content of Box 2.</p>
+      </div>
+
+      <div className="box">
+        <h3>Box 3</h3>
+        <p>This is the content of Box 3.</p>
+      </div>
+    </div>
+
+    <Spacing lg="75" md="80" />
+
+    <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+     Webinar 
+    <span style={{ color: 'orange', fontWeight: 'bold' }}>Information</span> 
+</h2>
+<Spacing lg="35" md="80" />
+
+    <div className="box-container">
+      <div className="box">
+        <div className="box-content">
+          <h2 className="size">Upcoming Webinar</h2>
+          <p className="para text-center">Date & Time</p>
+          <h2 className="size text-center">Apr 27, 2024 6:00 PM</h2>
+          <button className="buy-button">Buy Now</button>
+        </div>
+      </div> 
+      <div className="box">
+        <div className="box-content">
+        <h2 className="size">Webinar Bonuses</h2>
+          <h2 className="size"><span className="orange">📚 Free</span> E-book</h2>
+          <h2 className="size"><span className="orange">🎁 25% Discount</span> On Course</h2>
+
+          <button className="buy-button">Join Webinar Now</button>
+        </div>
+      </div>
+    </div>
       <Spacing lg="145" md="80" />
       {/* Start CTA Section */}
       <Div className="container">
