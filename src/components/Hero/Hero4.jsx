@@ -15,8 +15,12 @@ export default function Hero4({
   return (
     <Div
       className="cs-hero cs-style1 cs-type1 text-center cs-fixed_bg"
-      style={{ backgroundImage: 'url(./images/hero_bg_2.jpeg)' }}
     >
+     <Div className="cs-shape_1" />
+      <Div className="cs-shape_1" />
+      <Div className="cs-shape_1" />
+      <Div className="cs-circle_1" />
+      <Div className="cs-circle_2" />
       <Div className="container">
         <Div className="cs-hero_text">
           <h1 className="cs-hero_title">{parse(title)}</h1>

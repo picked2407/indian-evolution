@@ -24,8 +24,8 @@ export default function Hero5({
       <Div className="cs-circle_2" />
       <Div className="container">
         <Div className="cs-hero_text">
-          <h1 className="cs-hero_title text-end">{parse(title)}</h1>
-          <Div className="cs-hero_subtitle text-end">{subtitle}</Div>
+          <h1 className="cs-hero_title text-center">{parse(title)}</h1>
+          <Div className="cs-hero_subtitle">{subtitle}</Div>
           <Button btnLink={btnLink} btnText={btnText} />
         </Div>
       </Div>
