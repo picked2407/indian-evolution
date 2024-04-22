@@ -1,0 +1,177 @@
+.cylinder {
+  position: relative;
+  width: 500px; /* Original width */
+  height: 100px; /* Original height */
+  border: 2px solid orange;
+  border-radius: 100px; /* Half of height to make it a semi-circle */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Ensure the inner content stays within the rounded shape */
+  margin-left: 385px; /* Original margin */
+}
+
+.orange-text {
+  color: orange;
+  font-size: 24px; /* Original font size */
+  white-space: nowrap; /* Ensure the text stays in one line */
+  font-weight: bold;
+}
+
+.cylinder-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center the text horizontally */
+}
+
+.white-text {
+  color: white;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .cylinder {
+    width: 90%; /* Adjusted width for mobile */
+    height: 80px; /* Adjusted height for mobile */
+    margin-left: auto; /* Center horizontally on mobile */
+    margin-right: auto; /* Center horizontally on mobile */
+  }
+  
+  .orange-text {
+    font-size: 18px; /* Adjusted font size for mobile */
+  }
+}
+
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Center the boxes */
+    max-width: 1200px; /* Limit maximum width */
+  }
+  
+  .box {
+    flex: 1; /* Equal width for all boxes */
+    min-width: 250px; /* Minimum width of each box */
+    background-color: black; /* Black background color */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding around content */
+    box-shadow: 0 8px 16px rgba(255, 165, 0, 0.2); /* Orange gradient shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .box:hover {
+    box-shadow: 0 12px 20px rgba(255, 165, 0, 0.4); /* Adjusted shadow on hover */
+  }
+  
+  .box + .box {
+    margin-left: 20px; /* Add a gap between boxes */
+  }
+  
+  .box h3 {
+    margin-top: 0; /* Remove default margin */
+  }
+  
+  .box p {
+    margin-bottom: 0; /* Remove default margin */
+  }
+  .timer-container {
+    text-align: center;
+  }
+  
+  .timer {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #007bff;
+  }
+  
+  .countdown {
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    line-height: 60px;
+    color: white;
+  }
+
+/* Default styles for computer users */
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 350px;
+  border: 2px solid orange;
+  border-radius: 15px;
+  margin-right: 20px; /* Original right margin */
+  padding: 20px;
+}
+
+.box-content {
+  text-align: center;
+  color: white;
+}
+
+.size {
+  font-size: 22px;
+}
+
+.para {
+  color: #808080;
+  font-weight: bold;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  align-items: center;
+  width: 250px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.orange {
+  color: orange;
+  font-size: 26px;
+}
+
+/* Responsive styles for mobile users */
+@media only screen and (max-width: 768px) {
+  .box-container {
+    display: block;
+  }
+
+  .box {
+    width: 90%; /* Set width to 90% for all boxes on mobile */
+    height: 340px; /* Set height for all boxes on mobile */
+    margin: 10px auto; /* Center boxes horizontally */
+  }
+
+  .buy-button {
+    width: 80%; /* Adjust button width for mobile */
+  }
+}
+
+
