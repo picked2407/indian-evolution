@@ -99,10 +99,6 @@ export default function MarketingAgencyHome() {
       </Div>
       {/* End FunFact Section */}
 
- 
-      {/* Start Testimonial Section */}
-      <TestimonialSlider />
-      {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
       <Spacing lg="150" md="80" />
@@ -136,12 +132,6 @@ export default function MarketingAgencyHome() {
       <Spacing lg="100" md="70" />
       {/* End MovingText Section */}
 
-      {/* Start LogoList Section */}
-      <Div className="container">
-        <LogoList />
-      </Div>
-      <Spacing lg="130" md="80" />
-      {/* End LogoList Section */}
 
       {/* Start CTA Section */}
       <Div className="container">

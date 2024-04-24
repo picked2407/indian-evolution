@@ -57,13 +57,10 @@ export default function Header({ variant }) {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        to="service"
-                        onClick={() => setMobileToggle(false)}
-                      >
-                        Courses
+                      <NavLink to="/case-study/case-study-details" onClick={() => setMobileToggle(false)}>
+                        Webinar
                       </NavLink>
-                      
+                     
                     </li>
              
                     <li>
@@ -72,12 +69,7 @@ export default function Header({ variant }) {
                       </NavLink>
                      
                     </li>
-                    <li>
-                      <NavLink to="/case-study/case-study-details" onClick={() => setMobileToggle(false)}>
-                        Workshop
-                      </NavLink>
-                     
-                    </li>
+                   
                     <li>
                       <NavLink to="/contact" onClick={() => setMobileToggle(false)}>
                         Contact

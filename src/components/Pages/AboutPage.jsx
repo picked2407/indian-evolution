@@ -34,13 +34,7 @@ export default function AboutPage() {
   }, []);
   return (
     <>
-      {/* Start Page Heading Section */}
-      <PageHeading
-        title="About Us"
-        bgSrc="images/about_hero_bg.jpeg"
-        pageLinkText="About Us"
-      />
-      {/* End Page Heading Section */}
+      
 
       {/* Start About Section */}
       <Spacing lg="150" md="80" />
@@ -148,18 +142,7 @@ export default function AboutPage() {
       </Div>
       {/* End Why Choose Section */}
 
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
-        <Spacing lg="85" md="45" />
-        <TeamSlider />
-      </Div>
-      {/* End Team Section */}
+     
 
       {/* Start CTA Section */}
       <Spacing lg="150" md="80" />
